@@ -1,0 +1,3 @@
+ParaPublic logo: assets/img/logo.svg
+
+- Site name "ParaPublic" appears next to the icon in the header

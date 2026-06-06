@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="ParaPublic">
+  <defs>
+    <linearGradient id="cross-main" x1="18%" y1="12%" x2="82%" y2="88%">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="28%" stop-color="#86efac"/>
+      <stop offset="55%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="cross-shine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cross-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#15803d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#cross-glow)">
+    <rect x="44" y="18" width="32" height="84" rx="16" fill="url(#cross-main)"/>
+    <rect x="18" y="44" width="84" height="32" rx="16" fill="url(#cross-main)"/>
+    <rect x="44" y="18" width="32" height="42" rx="16" fill="url(#cross-shine)"/>
+    <rect x="18" y="44" width="42" height="32" rx="16" fill="url(#cross-shine)"/>
+  </g>
+</svg>
